@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import Field
-from app.proj_3_todo.routers import auth, todos
+from routers import auth, todos
 from database import engine
 from models import Base
 

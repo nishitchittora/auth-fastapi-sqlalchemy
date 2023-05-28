@@ -1,6 +1,5 @@
 from pydantic import BaseModel, Field
-from database import engine, SessionLocal
-from models import Base
+from database import SessionLocal
 from typing import Annotated
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, HTTPException, Path
