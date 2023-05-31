@@ -1,0 +1,7 @@
+
+# Command for Making alembic migrations
+alembic init alembic
+alembic revision --autogenerate -m "Message"
+
+alembic upgrade <hex>
+alembic downgrade <hex>
